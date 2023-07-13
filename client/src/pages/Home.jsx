@@ -21,10 +21,10 @@ const Home = () => {
                <motion.header {...slideAnimation('down')}>
                  <img src="./threejs.png" alt="logo" className="w-8 h-8 object-contain"/>
                </motion.header>
-               <motion.div className="hom-content" {...headContainerAnimation}>
+               <motion.div className="home-content" {...headContainerAnimation}>
                 <motion.div {...headTextAnimation}>
                  <h1 className="head-text">
-                    LET'S <br className="xl:block hidden"/> Do IT.
+                    LET'S <br className="xl:block hidden"/> DO IT.
                  </h1>
                 </motion.div>
                 <motion.div>
